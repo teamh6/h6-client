@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 헤더와 메인 사에의 위치 */
+.header_main_position {
+  min-height: 100%;
+  position: relative;
+}

@@ -1,0 +1,58 @@
+.root {
+  border-top: 1px solid #efefef;
+}
+
+.container {
+  max-width: var(--maximum-width);
+  margin: 0 auto;
+  /* src폴더의 index.css에서 정해놓은 :root 의 --maximum-width를 뜻함. */
+  padding: 0 24px 10px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 15px;
+  font-size: 12px;
+  color: #444;
+}
+
+.navigation a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.information {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border-top: 1px solid #efefef; */
+}
+
+.information h4 {
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+.phone {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.information ul {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.information li {
+  margin-bottom: 5px;
+}
+
+.information ul span:first-of-type {
+  font-weight: 700;
+  margin-right: 4px;
+}

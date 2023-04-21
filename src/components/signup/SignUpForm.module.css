@@ -1,0 +1,58 @@
+.root {
+  max-width: var(--maximum-width);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 60px 0 150px 0;
+}
+.root h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 45px;
+}
+.signupform {
+  padding: 15px 0;
+}
+.signupform h3 {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.signupform input {
+  outline: none;
+  border-bottom: 1px solid #efefef;
+  width: 100%;
+  padding: 5px 0;
+}
+.check {
+  font-size: 13px;
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 2px 8px;
+  margin-left: 20px;
+  /* float: right; */
+}
+
+p {
+  font-size: 12px;
+}
+.button {
+  background-color: #333;
+  color: #ffffff;
+  width: 100%;
+  font-size: 16px;
+
+  height: 50px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 50px;
+}
+.button:hover {
+  background-color: #efefef;
+  color: #333;
+  font-weight: 700;
+}

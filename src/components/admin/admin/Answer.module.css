@@ -1,0 +1,54 @@
+.root {
+  max-width: var(--maximum-width);
+  margin: 50px auto 50px;
+  width: 700px;
+  padding: 40px 10px 50px 10px;
+  background: #fafafa;
+}
+.root h3 {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  background-color: #666;
+  line-height: 17px;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: #fff;
+}
+
+.root label {
+  font-size: 14px;
+  font-weight: 700;
+  overflow: auto;
+}
+.root p {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  overflow: auto;
+  background: #fff;
+  font-size: 17px;
+  font-weight: normal !important;
+}
+
+textarea {
+  width: 100%;
+  overflow: auto;
+  outline: none;
+  height: 120px;
+}
+.button {
+  width:100%;
+  margin-top: 15px;
+  line-height: 50px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+}
+.button:hover {
+  background-color: #efefef;
+  color: #333;
+  font-weight: 700;
+}

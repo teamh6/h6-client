@@ -1,0 +1,25 @@
+.root{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 40px 160px;
+}
+
+.root h3 {
+    padding-bottom: 6px;  
+    letter-spacing: 0.17px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    border-bottom: 3px solid #222;
+  }
+  .list div{
+    padding: 17px 0 19px;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+  }
+
+  .list p{
+    margin-right: 10px;
+    font-size: 15px;
+    letter-spacing: -.15px;
+  }

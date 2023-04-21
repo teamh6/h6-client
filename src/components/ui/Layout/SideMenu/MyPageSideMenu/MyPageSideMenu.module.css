@@ -1,0 +1,22 @@
+.root {
+  flex: 1;
+  max-width: 200px;
+  border-right: 1px solid #efefef;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.menu a {
+  padding: 10px 16px;
+  border-bottom: 1px solid #efefef;
+}
+
+/* 사이드 메뉴 버튼이 활성화 되었을 때 */
+.menu a.active {
+  /* color : blue; */
+  font-weight: 700;
+}

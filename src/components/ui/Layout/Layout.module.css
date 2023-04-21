@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  /* flex - item 요소들이 강제로 한줄에 배치되게  할 것인지 결정 */
+  flex-wrap: nowrap;
+}
+
+.page {
+  /* 하나의 플렉스 아이템이 자신의 컨테이너가 차지하는 공간에 맞추기위해
+    크기를 키우거나 줄이는 방법을 설정 */
+  flex: 1;
+}
+.none {
+  /* width: 200px; */
+  flex:0.21; 
+}

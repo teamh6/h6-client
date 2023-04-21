@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pb {
+  @apply pb-[5px];
+}
+
+/* 마이페이지 리스트 */
+.activated {
+  @apply text-black text-[15px] font-bold;
+}
+
+.mp-botton {
+  @apply text-black text-[15px] font-bold;
+}
+
+/* 체크박스 기본 설정 */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #8d7b68;
+  appearance: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* 체크박스 클릭시 변경 설정 */
+input[type="checkbox"]:checked {
+  background: red;
+  background-color: #8d7b68;
+  border: none;
+}

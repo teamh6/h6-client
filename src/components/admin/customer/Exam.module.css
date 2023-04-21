@@ -1,0 +1,115 @@
+.root {
+  width: 1000px;
+  margin: 30px auto 100px auto;
+}
+.root h3 {
+  padding-bottom: 6px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.17px;
+}
+.title {
+  line-height: 22px;
+  font-size: 25px;
+  padding: 18px 50px 20px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  text-align: center;
+}
+.container {
+  padding: 20px 0 19px;
+}
+.description {
+  margin-top: 17px;
+  line-height: 20px;
+  letter-spacing: 0.11px;
+  font-size: 15px;
+  color: #222;
+}
+.container li {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+  padding-left: 10px;
+  color: rgba(34, 34, 34, 0.6);
+  line-height: 17px;
+  letter-spacing: 0.15px;
+}
+.check {
+  padding: 0 0 20px;
+}
+
+table {
+  width: 100%;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+}
+table thead th {
+  height: 35px;
+  padding: 5px;
+  color: rgba(34, 34, 34, 0.5);
+  background: hsla(0, 0%, 92.2%, 0.2);
+  line-height: 14px;
+  letter-spacing: 0.12px;
+}
+table tbody th {
+  height: 45px;
+  line-height: 15px;
+  letter-spacing: 0.13px;
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+  color: #222;
+  font-weight: 400;
+}
+table th p {
+  color: rgba(34, 34, 34, 0.5);
+}
+table tbody td {
+  border-top: 1px solid #f2f2f2;
+  padding: 4px 5px;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.13px;
+  color: #222;
+}
+tbody td em {
+  color: #f15746;
+}
+.check ul {
+  padding: 15px 0;
+}
+.check li {
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.12px;
+  margin-top: 2px;
+}
+.title2 {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.check2 ul {
+  padding: 15px 0;
+}
+.check2 li {
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.12px;
+  margin-top: 2px;
+}
+.add_check {
+  padding: 25px 0 6px;
+  letter-spacing: 0.17px;
+  font-size: 15px;
+}
+.etc_desc {
+  font-size: 13px;
+  color: rgba(34, 34, 34, 0.6);
+  margin-top: 5px;
+}

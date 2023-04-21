@@ -1,0 +1,107 @@
+.root {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: relative;
+}
+.container {
+  padding: 30px 40px;
+  display: flex;
+}
+.img {
+  float: left;
+  width: 500px;
+  border-right: 1px solid #e8e8e8;
+  padding-right: 50px;
+  margin: auto;
+}
+.infoArea {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 500px;
+  padding: 30px;
+  margin: auto;
+}
+.name {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-size: 23px;
+  letter-spacing: -0.09px;
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: 700;
+}
+.detail {
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.detail h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #666;
+}
+
+.detail div {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.button {
+  /* margin-bottom: 5px; */
+  padding-bottom: 5px;
+}
+.button ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.basket {
+  padding: 3px 0;
+  width: 48%;
+  background: #ef6253ed;
+  border-radius: 5px;
+  line-height: 40px;
+}
+.buy {
+  padding: 3px 0;
+  width: 48%;
+  background: #41b979;
+  border-radius: 5px;
+  line-height: 40px;
+}
+.wish {
+  margin-top: 10px;
+  padding: 3px 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-weight: 600;
+}
+.wish button {
+  display: flex !important;
+  align-items: center;
+}
+.info {
+  height: 250px;
+}
+.info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.info div {
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
